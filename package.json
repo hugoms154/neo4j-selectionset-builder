@@ -1,0 +1,20 @@
+{
+  "name": "neo4j-selectionset-builder",
+  "version": "1.0.0",
+  "description": "Builder for `selectionSet` field of OGM from Neo4J-OGM",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "neo4j",
+    "graphql",
+    "builder",
+    "selectionset"
+  ],
+  "author": "Hugo Miranda",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.6.3"
+  }
+}
