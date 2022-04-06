@@ -12,7 +12,7 @@ type PartialObjectOrArrayKeysOf<T extends [] | {}> = {
     : SelectionSet<T[key]>;
 };
 
-export type SelectionSet<T> = T extends {}
+type SelectionSet<T> = T extends {}
   ? Array<
       | keyof ExcludeKeysOfType<T, object>
       | PartialObjectOrArrayKeysOf<
