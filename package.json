@@ -1,6 +1,6 @@
 {
   "name": "@hugoms154/neo4j-selectionset-builder",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Builder for `selectionSet` field of OGM from Neo4J-OGM",
   "main": "index.ts",
   "scripts": {
